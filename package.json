@@ -1,7 +1,18 @@
 {
-  "name": "root",
+  "name": "editor-spike",
+  "version": "1.0.0",
+  "repository": "git@github.com:ianhowe76/editor-spike.git",
+  "author": "Ian Howe <ian@vbizapp.com>",
+  "license": "MIT",
   "private": true,
+  "scripts": {
+    "clean": "lerna clean",
+    "bootstrap": "lerna bootstrap"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
