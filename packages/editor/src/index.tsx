@@ -5,7 +5,7 @@ interface IEditorProps {
   onSave: (text: string) => void;
 }
 
-export const Editor: React.FC<IEditorProps> = ({ initialText, onSave }) => {
+const Editor: React.FC<IEditorProps> = ({ initialText, onSave }) => {
   const [text, setText] = useState<string>(initialText);
 
   return (
