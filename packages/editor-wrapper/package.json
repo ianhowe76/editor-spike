@@ -1,0 +1,20 @@
+{
+  "name": "@editor-spike/editor-wrapper",
+  "version": "1.0.0",
+  "description": "JavaScript class wrapper of editor component",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "microbundle-crl --no-compress --format modern,cjs"
+  },
+  "dependencies": {
+    "@editor-spike/editor": "1.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "microbundle-crl": "^0.13.10"
+  }
+}
